@@ -17,6 +17,10 @@ namespace Fietsclient
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm(AppGlobal.Instance));
+
+            //tijdelijke code om te testen
+            Connect connect = new Connect();
+            connect.LoginServer("tommy", "jemoeder");
         }
     }
 }

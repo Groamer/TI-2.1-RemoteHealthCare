@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppGlobal.cs" />
+    <Compile Include="Connect.cs" />
     <Compile Include="Meting.cs" />
     <Compile Include="Meetsessie.cs" />
     <Compile Include="KettlerBikeComm.cs" />
